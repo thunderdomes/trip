@@ -10,11 +10,7 @@ class DetailController extends Controller
 								  'profile'=>array(
 										 'alias'=>'autorprofile'
 								  ),
-								  'recentexperience'=>array(
-										'alias'=>'oex',
-										'order'=>'oex.create_date',
-										'condition'=>'oex.id<>t.id'
-								  )
+								  'recentexperience'
 							 ),
 						 ),
 						'comments'=>array(
